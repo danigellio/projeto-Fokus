@@ -147,7 +147,7 @@ function iniciarOuPausar() {
 function zerar() {
   clearInterval(intervaloId);
   //clearInterval  interrompe algum codigo no caso ele interrompe o interloId
-  iniciarOuPausarBt.textContent = "Começar"; //textContent nao podemos colocar tags, com innerHTML sim
+  iniciarOuPausarBt.textContent = "Começar"; //textContent nao podemos colocar tags, somente texto, com innerHTML sim
   intervaloId = null;
 }
 
